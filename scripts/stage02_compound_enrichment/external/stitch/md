@@ -1,9 +1,17 @@
-# STITCH external data
+# STITCH Data
 
-Place the STITCH human actions file here:
+This folder requires the following external file:
 
-`9606.actions.v5.0.tsv`
+File:
+- 9606.actions.v5.0.tsv
 
-This file is required by `10_stitch_interactions.py`.
+Download from:
+https://
 
-Do not upload large STITCH files to GitHub unless using Git LFS.
+Instructions:
+1. Download the file
+2. Extract if compressed
+3. Place it in this folder
+
+Expected path:
+data/stage02_compound_enrichment/external/stitch/9606.actions.v5.0.tsv
