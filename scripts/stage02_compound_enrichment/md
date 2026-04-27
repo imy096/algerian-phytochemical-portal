@@ -1,1 +1,17 @@
 
+# Stage 2 — Compound Data Enrichment Pipeline
+
+## Overview
+
+This stage enriches the list of phytochemical compounds extracted in **Stage 1** by retrieving molecular, biological, toxicological, and interaction data from multiple public databases.
+
+The pipeline is **sequential and dependency-driven**, starting from compound names and standardizing identifiers using PubChem.
+
+---
+
+## Input
+
+Output from Stage 1:
+
+```text
+data/stage01_elicit_processing/outputs/stage05_compounds/all_compounds.xlsx
