@@ -1,1 +1,9 @@
+# STITCH external data
 
+Place the STITCH human actions file here:
+
+`9606.actions.v5.0.tsv`
+
+This file is required by `10_stitch_interactions.py`.
+
+Do not upload large STITCH files to GitHub unless using Git LFS.
