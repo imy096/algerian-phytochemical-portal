@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#faf8f5',
+          100: '#f5f1ea',
+          200: '#e8e0d1',
+          300: '#d6c9b3',
+          400: '#c0ad8f',
+          500: '#a89170',
+          600: '#8d7659',
+          700: '#75604a',
+          800: '#5f4e3d',
+          900: '#4f4134',
+        },
+        teal: {
+          50: '#f0f9f9',
+          100: '#d9f0f0',
+          200: '#b7e2e3',
+          300: '#87cdcf',
+          400: '#51b0b4',
+          500: '#379499',
+          600: '#2d7680',
+          700: '#295f69',
+          800: '#274f57',
+          900: '#25424a',
+        },
+        sand: {
+          50: '#fdfcfb',
+          100: '#f9f7f3',
+          200: '#f3ede3',
+          300: '#e9dccb',
+          400: '#dbc4a8',
+          500: '#cba97f',
+          600: '#b8936a',
+          700: '#9a7856',
+          800: '#7d614a',
+          900: '#66503d',
+        },
+        gold: {
+          50: '#fdfbf7',
+          100: '#f9f5eb',
+          200: '#f2e8cf',
+          300: '#e8d5a9',
+          400: '#dcbc7c',
+          500: '#cfa057',
+          600: '#b8843e',
+          700: '#9a6835',
+          800: '#7e5430',
+          900: '#68462a',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Merriweather', 'Georgia', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+}
