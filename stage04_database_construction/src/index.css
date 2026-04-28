@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-primary-200;
+  }
+  html, body {
+    @apply overflow-x-hidden w-full max-w-full;
+  }
+  body {
+    @apply bg-sand-50 text-primary-900 font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@layer components {
+  .btn {
+    @apply px-5 py-2.5 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-sm hover:shadow-md;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-teal-600 to-teal-500 text-white hover:from-teal-700 hover:to-teal-600;
+  }
+
+  .btn-secondary {
+    @apply bg-gradient-to-r from-sand-200 to-sand-100 text-primary-900 hover:from-sand-300 hover:to-sand-200;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md border border-primary-100/50 p-6 hover:shadow-lg transition-shadow duration-300;
+  }
+
+  .input {
+    @apply w-full px-4 py-2.5 border-2 border-primary-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-all duration-200;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold shadow-sm;
+  }
+
+  .badge-primary {
+    @apply bg-gradient-to-r from-primary-100 to-sand-100 text-primary-800;
+  }
+
+  .badge-accent {
+    @apply bg-gradient-to-r from-gold-100 to-gold-50 text-gold-800;
+  }
+
+  .badge-gray {
+    @apply bg-gradient-to-r from-sand-100 to-sand-50 text-primary-700;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
