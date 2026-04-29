@@ -18,6 +18,15 @@ The system connects:
 - literature evidence
 
 ---
+## What this project does
+
+This project builds a complete pipeline to:
+
+1. Extract phytochemical compounds from literature
+2. Normalize plant taxonomy and compound identities
+3. Enrich compounds using multiple biological databases
+4. Prepare structured datasets for database integration
+5. Provide a web-based platform for exploration
 
 ## Workflow
 
