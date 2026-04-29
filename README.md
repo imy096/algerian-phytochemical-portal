@@ -4,6 +4,12 @@ An integrated chemogenomic database and research platform for Algerian medicinal
 
 ---
 
+<p align="center">
+  <img src="workflow.png" width="100%">
+</p>
+
+---
+
 ## Project Overview
 
 This project builds a multi-stage computational pipeline to extract, clean, enrich, and integrate phytochemical data into a structured database and interactive research portal.
