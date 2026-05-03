@@ -1,14 +1,11 @@
 
 ---
 
-# 🎥 2. FULL VIDEO SCRIPT (READY TO READ)
 
----
-
-## 🎬 INTRO
+##  INTRO
 
 > Hello everyone,  
-> In this video I will show you how to run the Algerian Chemogenomic Phytochemical Portal locally.  
+>  I will show you how to run the Algerian Chemogenomic Phytochemical Portal locally.  
 > This platform integrates medicinal plants, phytochemicals, targets, and biological data into one research system.
 
 ---
