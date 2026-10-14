@@ -1,0 +1,29 @@
+concept_id,concept_normalized,keyword,evidence_group,priority
+1,diabetes,diabetes,ethnobotany,1
+2,diabetes,diabetic,ethnobotany,2
+3,digestive disorders,digestive,ethnobotany,1
+4,digestive disorders,stomach,ethnobotany,2
+5,digestive disorders,gastro,ethnobotany,3
+6,wound healing,wound,ethnobotany,1
+7,wound healing,healing,ethnobotany,2
+8,fever,fever,ethnobotany,1
+9,pain relief,pain,ethnobotany,1
+10,pain relief,analgesic,ethnobotany,2
+11,respiratory conditions,respiratory,ethnobotany,1
+12,respiratory conditions,cough,ethnobotany,2
+13,skin conditions,skin,ethnobotany,1
+14,skin conditions,dermal,ethnobotany,2
+15,anti-inflammatory,anti-inflammatory,medicinal_potential,1
+16,anti-inflammatory,anti inflammatory,medicinal_potential,2
+17,antioxidant,antioxidant,medicinal_potential,1
+18,antimicrobial,antimicrobial,medicinal_potential,1
+19,antimicrobial,antibacterial,medicinal_potential,2
+20,antimicrobial,antifungal,medicinal_potential,3
+21,antidiabetic,antidiabetic,medicinal_potential,1
+22,antidiabetic,hypoglycemic,medicinal_potential,2
+23,cytotoxic,cytotoxic,medicinal_potential,1
+24,anticancer,anticancer,medicinal_potential,1
+25,hepatoprotective,hepatoprotective,medicinal_potential,1
+26,analgesic,analgesic,medicinal_potential,1
+27,neuroprotective,neuroprotective,medicinal_potential,1
+28,cardioprotective,cardioprotective,medicinal_potential,1

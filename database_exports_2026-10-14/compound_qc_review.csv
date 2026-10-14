@@ -1,0 +1,6 @@
+review_id,compound_id,issue_type,issue_description,action_taken,reviewed,review_notes,created_at
+1,CMPD_890E3CE8F454,wrong_pubchem_mapping,Wrong PubChem mappings removed from tocopherol record,Deleted false-positive PubChem enrichment rows,true,QC audit: tocopherol group,2026-05-22 15:13:12.819716
+2,CMPD_3974230BEDB7,wrong_pubchem_mapping,Wrong steroid-like PubChem mapping removed,Deleted false-positive PubChem enrichment row,true,QC audit: tocopherol group,2026-05-22 15:13:12.819716
+3,CMPD_040D246AC420,wrong_pubchem_mapping,Wrong nicotinic-acid PubChem mapping removed,Deleted false-positive PubChem enrichment row,true,QC audit: tocopherol group,2026-05-22 15:13:12.819716
+4,CMPD_94EB57C6307A,wrong_pubchem_mapping,Wrong PubChem mapping removed from terpinene-4-ol,Deleted false-positive PubChem enrichment row,true,QC audit: pinene/terpinene group,2026-05-22 15:13:12.819716
+5,null,global_duplicate_audit,Compound normalization audit identified 713 duplicate normalized-name groups,"Classified duplicate groups into likely duplicate imports, stereochemical/variant conflicts, and unresolved groups",true,"590 likely duplicate groups, 78 variant/conflict groups, 45 unresolved groups",2026-05-22 15:25:34.746711

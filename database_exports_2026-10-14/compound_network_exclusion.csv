@@ -1,0 +1,20 @@
+exclusion_id,compound_name_normalized,exclusion_category,reason,created_at
+1,zn,metal_ion,non-specific inorganic ion,2026-05-22 21:32:21.845948
+2,zinc,metal_ion,non-specific inorganic ion,2026-05-22 21:32:21.845948
+3,selenium,element,non-specific element,2026-05-22 21:32:21.845948
+4,mercury,element,toxic element / not phytochemical-focused,2026-05-22 21:32:21.845948
+5,dopamine,endogenous_metabolite,endogenous neurotransmitter,2026-05-22 21:32:21.845948
+6,arginine,amino_acid,primary metabolite,2026-05-22 21:32:21.845948
+7,tryptophan,amino_acid,primary metabolite,2026-05-22 21:32:21.845948
+8,l phenylalanine,amino_acid,primary metabolite,2026-05-22 21:32:21.845948
+9,gamma aminobutyric acid,endogenous_metabolite,endogenous neurotransmitter,2026-05-22 21:32:21.845948
+10,glycol,solvent/simple_metabolite,non-specific small molecule,2026-05-22 21:32:21.845948
+11,dimethyl sulfoxide,solvent,assay solvent/control,2026-05-22 21:32:21.845948
+12,formate,central_metabolite,primary metabolite,2026-05-22 21:32:21.845948
+13,citric acid,central_metabolite,primary metabolite,2026-05-22 21:32:21.845948
+14,alpha ketoglutaric acid,central_metabolite,primary metabolite,2026-05-22 21:32:21.845948
+15,succinic acid,central_metabolite,primary metabolite,2026-05-22 21:32:21.845948
+16,malonic acid,central_metabolite,primary metabolite,2026-05-22 21:32:21.845948
+17,lactic acid,central_metabolite,primary metabolite,2026-05-22 21:32:21.845948
+18,trehalose,sugar,primary carbohydrate,2026-05-22 21:32:21.845948
+19,acetylsalicylic acid,synthetic_drug,not native phytochemical-focused entity,2026-05-22 21:32:21.845948
